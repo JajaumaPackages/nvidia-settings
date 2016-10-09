@@ -1,0 +1,18 @@
+diff -uNr nvidia-settings-349.16.orig/doc/nvidia-settings.desktop nvidia-settings-349.16/doc/nvidia-settings.desktop
+--- nvidia-settings-349.16.orig/doc/nvidia-settings.desktop	2015-04-25 20:20:38.753399981 +0300
++++ nvidia-settings-349.16/doc/nvidia-settings.desktop	2015-04-25 21:37:53.791284966 +0300
+@@ -1,11 +1,10 @@
+ [Desktop Entry]
+ Type=Application
+-Encoding=UTF-8
+ Name=NVIDIA X Server Settings
+ Comment=Configure NVIDIA X Server Settings
+-Exec=__UTILS_PATH__/nvidia-settings
+-Icon=__PIXMAP_PATH__/nvidia-settings.png
+-Categories=__NVIDIA_SETTINGS_DESKTOP_CATEGORIES__
++Exec=nvidia-settings
++Icon=nvidia-settings.png
++Categories=System;Settings;
+ 
+ # Translations provided by Sun Microsystems
+ Name[de]=NVIDIA X-Server-Einstellungen
