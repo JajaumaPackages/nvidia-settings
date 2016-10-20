@@ -1,6 +1,6 @@
 Name:           nvidia-settings
 Version:        367.57
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        Configure the NVIDIA graphics driver
 
 License:        GPLv2+
@@ -65,7 +65,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
 
 %changelog
-* Thu Oct 20 2016 Jajauma's Packages <jajauma@yandex.ru> - 367.57-3
+* Thu Oct 20 2016 Jajauma's Packages <jajauma@yandex.ru> - 367.57-1
 - Update to latest upstream version
 
 * Sun Oct 09 2016 Jajauma's Packages <jajauma@yandex.ru> - 367.44-2
