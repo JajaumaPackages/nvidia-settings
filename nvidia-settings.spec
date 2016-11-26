@@ -1,5 +1,5 @@
 Name:           nvidia-settings
-Version:        367.57
+Version:        375.20
 Release:        1%{?dist}
 Summary:        Configure the NVIDIA graphics driver
 
@@ -65,6 +65,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
 
 %changelog
+* Sun Nov 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 375.20-1
+- Update to latest upstream version
+
 * Thu Oct 20 2016 Jajauma's Packages <jajauma@yandex.ru> - 367.57-1
 - Update to latest upstream version
 
