@@ -1,11 +1,11 @@
 Name:           nvidia-settings
-Version:        375.39
+Version:        381.22
 Release:        1%{?dist}
 Summary:        Configure the NVIDIA graphics driver
 
 License:        GPLv2+
 URL:            http://www.nvidia.com/object/unix.html
-Source0:        ftp://download.nvidia.com/XFree86/%{name}/%{name}-%{version}.tar.bz2
+Source0:        http://download.nvidia.com/XFree86/%{name}/%{name}-%{version}.tar.bz2
 Patch0:         nvidia-settings-desktop.patch
 
 BuildRequires:  desktop-file-utils
@@ -65,6 +65,10 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
 
 %changelog
+* Sun May 14 2017 Jajauma's Packages <jajauma@yandex.ru> - 381.22-1
+- Update to latest upstream release
+- Fix broken FTP D/L link
+
 * Fri Feb 17 2017 Jajauma's Packages <jajauma@yandex.ru> - 375.39-1
 - Update to latest upstream release
 
